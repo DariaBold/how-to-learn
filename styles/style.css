@@ -154,7 +154,6 @@ padding-bottom: 30px;
   background-size: 867px 637px;
   height: 890px;
   background-color:#f2f2f2;
-  height: 100vh;
   position: relative;
 }
 .feynman__title{
@@ -226,6 +225,9 @@ padding-bottom: 30px;
   background-image: url(../images/logo_place_footer.svg);
   display: flex;
   justify-items: start;
+  top: 0;
+  left: 0;
+  color: white;
 }
 .footer{
   overflow: hidden;
@@ -245,11 +247,7 @@ padding-bottom: 30px;
   position: relative;
   display: flex;
 }
-.logo_place_footer{
-  top: 0;
-  left: 0;
-  color: white;
-}
+
 .footer__author{
   color: white;
   padding: 18px 0;
