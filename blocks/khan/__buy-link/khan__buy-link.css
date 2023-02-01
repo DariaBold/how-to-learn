@@ -6,4 +6,8 @@
     position: absolute;
     color: #2f80ed;
     text-decoration: none;
+    transition: opacity 0.7s ease-out;
+}
+.khan__buy-link:hover{
+  opacity: 0.3;
 }
