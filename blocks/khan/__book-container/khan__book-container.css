@@ -3,4 +3,5 @@
     padding-top: 68px;
     height: 608px;
     overflow: hidden;
+    display: flex;
 }
